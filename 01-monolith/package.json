@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "typecheck": "tsc --noEmit --extendedDiagnostics"
+    "typecheck": "node ../demo/tsc-log.mjs 01 --noEmit --extendedDiagnostics"
   },
   "dependencies": {
     "zod": "4.6.7"
