@@ -1,0 +1,12 @@
+{
+  "name": "01-monolith",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "node ../demo/tsc-log.mjs 01 --noEmit --extendedDiagnostics"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}

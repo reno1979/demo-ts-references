@@ -1,0 +1,16 @@
+{
+  "name": "02-npm-workspaces",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "node ../demo/tsc-log.mjs 02 --noEmit --extendedDiagnostics"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.8",
+    "typescript": "7.0.2"
+  }
+}

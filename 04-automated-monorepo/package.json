@@ -1,0 +1,23 @@
+{
+  "name": "04-automated-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "node ../demo/tsc-log.mjs 04 -b --extendedDiagnostics",
+    "build": "tsc -b --extendedDiagnostics",
+    "clean": "tsc -b --clean",
+    "sync": "node ./scripts/sync-monorepo.js",
+    "check-sync": "node ./scripts/sync-monorepo.js --check",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.8",
+    "husky": "9.1.7",
+    "syncpack": "15.3.3",
+    "typescript": "7.0.2"
+  }
+}

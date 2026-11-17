@@ -1,0 +1,18 @@
+{
+  "name": "03-project-references",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "node ../demo/tsc-log.mjs 03 -b --extendedDiagnostics",
+    "build": "tsc -b --extendedDiagnostics",
+    "clean": "tsc -b --clean"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.8",
+    "typescript": "7.0.2"
+  }
+}

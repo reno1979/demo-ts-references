@@ -1,0 +1,11 @@
+{
+  "name": "@myrepo/app",
+  "version": "1.0.0",
+  "dependencies": {
+    "@myrepo/validation": "*",
+    "@myrepo/utils": "*"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0"
+  }
+}

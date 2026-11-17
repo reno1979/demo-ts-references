@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "🔍 Running Monorepo Zero-Touch Guardrails..."
+npm run check-sync || (echo "❌ Monorepo is out of sync! Running auto-sync..." && npm run sync && git add . && exit 1)

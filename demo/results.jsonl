@@ -1,0 +1,16 @@
+{"step":"01","label":"Monolith (paths)","scenario":"cold","wallMs":640,"files":164,"nodes":78161,"symbols":260253,"types":133380,"checkMs":446,"memKB":194674}
+{"step":"01","label":"Monolith (paths)","scenario":"warm","wallMs":569,"files":164,"nodes":78162,"symbols":260253,"types":133380,"checkMs":413,"memKB":194629}
+{"step":"02","label":"npm workspaces","scenario":"cold","wallMs":650,"files":164,"nodes":78161,"symbols":260253,"types":133380,"checkMs":450,"memKB":194695}
+{"step":"02","label":"npm workspaces","scenario":"warm","wallMs":417,"files":164,"nodes":78162,"symbols":260253,"types":133380,"checkMs":291,"memKB":194694}
+{"step":"03","label":"+ Project References","scenario":"cold","wallMs":929,"files":387,"nodes":189613,"symbols":500000,"types":266840,"checkMs":988,"memKB":195127}
+{"step":"03","label":"+ Project References","scenario":"warm","wallMs":71,"files":64,"nodes":48097,"symbols":31635,"types":349,"checkMs":1,"memKB":25315}
+{"step":"04","label":"+ Zero-touch automation","scenario":"cold","wallMs":849,"files":387,"nodes":189613,"symbols":500000,"types":266840,"checkMs":902,"memKB":195032}
+{"step":"04","label":"+ Zero-touch automation","scenario":"warm","wallMs":89,"files":64,"nodes":48097,"symbols":31635,"types":349,"checkMs":1,"memKB":25338}
+{"ts":"2026-11-17T14:09:33.976Z","step":"01","label":"Monolith (paths)","scenario":"cold","cmd":"tsc --noEmit --extendedDiagnostics","runs":7,"wallMs":326,"files":164,"nodes":78161,"types":133380,"checkMs":236,"memKB":194593}
+{"ts":"2026-11-17T14:09:36.300Z","step":"01","label":"Monolith (paths)","scenario":"warm","cmd":"tsc --noEmit --extendedDiagnostics","runs":7,"wallMs":329,"files":164,"nodes":78162,"types":133380,"checkMs":240,"memKB":194582}
+{"ts":"2026-11-17T14:09:38.657Z","step":"02","label":"npm workspaces","scenario":"cold","cmd":"tsc --noEmit --extendedDiagnostics","runs":7,"wallMs":335,"files":164,"nodes":78161,"types":133380,"checkMs":244,"memKB":194609}
+{"ts":"2026-11-17T14:09:41.010Z","step":"02","label":"npm workspaces","scenario":"warm","cmd":"tsc --noEmit --extendedDiagnostics","runs":7,"wallMs":336,"files":164,"nodes":78162,"types":133380,"checkMs":240,"memKB":194550}
+{"ts":"2026-11-17T14:09:45.134Z","step":"03","label":"+ Project References","scenario":"cold","cmd":"tsc -b --extendedDiagnostics","runs":7,"wallMs":561,"files":387,"nodes":189613,"types":266840,"checkMs":590,"memKB":195158}
+{"ts":"2026-11-17T14:09:49.220Z","step":"03","label":"+ Project References","scenario":"warm","cmd":"tsc -b --extendedDiagnostics","runs":7,"wallMs":60,"files":64,"nodes":48097,"types":349,"checkMs":1,"memKB":25316}
+{"ts":"2026-11-17T14:09:53.394Z","step":"04","label":"+ Zero-touch automation","scenario":"cold","cmd":"tsc -b --extendedDiagnostics","runs":7,"wallMs":562,"files":387,"nodes":189613,"types":266840,"checkMs":568,"memKB":195069}
+{"ts":"2026-11-17T14:09:57.364Z","step":"04","label":"+ Zero-touch automation","scenario":"warm","cmd":"tsc -b --extendedDiagnostics","runs":7,"wallMs":57,"files":64,"nodes":48097,"types":349,"checkMs":1,"memKB":25342}

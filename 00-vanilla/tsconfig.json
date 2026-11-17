@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "paths": {
+      "@myrepo/validation": ["./src/validation/index.ts"],
+      "@myrepo/utils": ["./src/utils/index.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}

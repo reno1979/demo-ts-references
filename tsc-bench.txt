@@ -1,0 +1,34 @@
+### step=01 scenario=cold ts=2026-11-17T12:21:40.139Z
+Files:              164
+Lines:            88154
+Identifiers:      78161
+Symbols:         260253
+Types:           133380
+Instantiations:  289928
+Memory used:    194615K
+Memory allocs:  1185582
+Config time:     0.000s
+Parse time:      0.022s
+Bind time:       0.010s
+Check time:      0.233s
+Emit time:       0.000s
+Total time:      0.266s
+
+### wall=343
+### step=01 scenario=warm ts=2026-11-17T12:21:40.486Z
+Files:              164
+Lines:            88154
+Identifiers:      78162
+Symbols:         260253
+Types:           133380
+Instantiations:  289928
+Memory used:    194599K
+Memory allocs:  1185498
+Config time:     0.000s
+Parse time:      0.022s
+Bind time:       0.010s
+Check time:      0.246s
+Emit time:       0.000s
+Total time:      0.280s
+
+### wall=346
